@@ -1,13 +1,17 @@
-<!DOCTYPE html>
 <html lang="en-US">
-
 <head>
-  <title>Document</title>
-  <!-- When changing this title must also change title in webpack.config.js plugins section and in package.json -->
+  <title>Curency Converter</title>
 </head>
-
 <body>
-
+  <div class="container">
+    <h1>Welcome to a Currency Converter from USD to other currencies</h1>
+    <label for="inputUSD">Please Enter a monetary amount in USD:</label>
+    <input id="inputUSD" type="number"><br>
+    <label for="inputCurrency">Please Enter a currency type: eg. GBP, </label>
+    <input id="inputCurrency" type="text">
+    <button class="btn-success" id="submitExchange">Submit</button>
+    <div class="showErrors"></div>
+    <div class="showResult"></div>
+  </div>
 </body>
-
 </html>
