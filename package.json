@@ -2,7 +2,7 @@
   "name": "Current Exchange using an API",
   "version": "1.0.0",
   "description": "It will convert USD to other currencies",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "build": "webpack --mode=development",
     "start": "npm run build & webpack-dev-server --open --mode development",
