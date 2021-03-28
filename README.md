@@ -42,4 +42,4 @@ This is a currency exchange application. It will take an ammount of US dollars a
 * [MIT](https://github.com/saoud/html-template/blob/main/LICENSE)
 * Copyright 2021 Saoud Rana
 ## Contact
-Saoud Rana githubissues@saoud.dev
+[Saoud Rana](mailto:githubissues@saoud.dev)

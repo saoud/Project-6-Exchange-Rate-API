@@ -1,7 +1,7 @@
 {
-  "name": "jsenvtemplate",
+  "name": "Current Exchange using an API",
   "version": "1.0.0",
-  "description": "",
+  "description": "It will convert USD to other currencies",
   "main": "main.js",
   "scripts": {
     "build": "webpack --mode=development",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saoud/jsEnvTemplate.git"
+    "url": "git+https://github.com/saoud/Project-6-Exchange-Rate-APIt"
   },
   "keywords": [],
   "author": "Saoud Rana",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/saoud/jsEnvTemplate/issues"
+    "url": "https://github.com/saoud/Project-6-Exchange-Rate-API/issues"
   },
-  "homepage": "https://github.com/saoud/jsEnvTemplate#readme",
+  "homepage": "https://github.com/saoud/Project-6-Exchange-Rate-APIreadme",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
