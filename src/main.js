@@ -2,7 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import ExchangeRate from './exchangeRateAPI'
+import ExchangeRate from './exchangeRateAPI';
 
 function clearFields() {
   $('.showErrors').text("");
@@ -11,10 +11,10 @@ function clearFields() {
 }
 
 function getElements(response) {
-if (response.result === "success") {
-    $('.showRate').text('Your USD conversion is ${response.conversion_result} ${response.target_code}')
+  if (response.result === "success") {
+    $('.showRate').text('Your USD conversion is ${response.conversion_result} ${response.target_code}');
   } else if (response["error-type"] === "unsupported-code") {
-    $('.showResutlError').text("Unfortunatly we have encoutered an error")
+    $('.showResutlError').text("Unfortunatly we have encoutered an error");
   } else {
     $('.showErrors').text(`There was an error ${response.message}. Please enter a valid number.`);
   }
