@@ -24,7 +24,7 @@ This is a currency exchange application. It will take an ammount of US dollars a
 ## Set up / Installation requirements
 * Open the terminal in your machine
 * Navigate to the directory where you would like to save this project 
-* Clone the project with $ git clone (https://github.com/saoud/Project-6-Exchange-Rate-API.git)
+* Clone the project with $ `git clone https://github.com/saoud/Project-6-Exchange-Rate-API.git`
 * Visit the [ExhangeRate-API](https://www.exchangerate-api.com/) site. Input your email address and click the "Get Free Key" button. 
 * You'll be prompted to create an account with your email, first name and a password. Agree to the terms of use and click "Get Started!". You'll be able to access a dashboard that includes your API key as well as your remaining API calls for the month. 
 * Create a file to store variables you want to keep secret $ touch .env  
