@@ -2,7 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import ExchangeRate from './exchangeRateAPI';
+import ExchangeRate from './exchangeRateAPI.js';
 
 function clearFields() {
   $('.showErrors').text("");
