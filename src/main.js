@@ -12,7 +12,7 @@ function clearFields() {
 
 function getElements(response) {
   if (response.result === "success") {
-    $('.showResult').text('Your USD conversion is ${response.conversion_result} ${response.target_code}');
+    $('.showResult').text(`Your USD conversion is ${response.conversion_result} ${response.target_code}`);
   } else if (response["error-type"] === "unsupported-code") {
     $('.showResutlError').text("Unfortunatly we have encoutered an error");
   } else {
