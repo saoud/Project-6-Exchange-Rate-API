@@ -22,8 +22,10 @@ function getElements(response) {
 
 $(document).ready(function() {
   $('#submitExchange').click(function() {
-    let inputUSD = parseInt($('input#inputUSD').val());
+    let inputUSD = $('input#inputUSD').val();
     let currency = $('#currency').val();
+    console.log(inputUSD);
+    console.log(currency);
     clearFields();
     ExchangeRate.getRate(currency, inputUSD).then(function(response) {
       getElements(response);
