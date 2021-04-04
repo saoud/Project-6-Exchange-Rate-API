@@ -6,13 +6,13 @@ import ExchangeRate from './exchangeRateAPI.js';
 
 function clearFields() {
   $('.showErrors').text("");
-  $('.showRate').text("");
+  $('.showResult').text("");
   $('.showResultErrors').text("");
 }
 
 function getElements(response) {
   if (response.result === "success") {
-    $('.showRate').text('Your USD conversion is ${response.conversion_result} ${response.target_code}');
+    $('.showResult').text('Your USD conversion is ${response.conversion_result} ${response.target_code}');
   } else if (response["error-type"] === "unsupported-code") {
     $('.showResutlError').text("Unfortunatly we have encoutered an error");
   } else {
