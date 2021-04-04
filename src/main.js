@@ -14,7 +14,7 @@ function getElements(response) {
   if (response.result === "success") {
     $('.showResult').text(`Your USD conversion is ${response.conversion_result} ${response.target_code}`);
   } else if (response["error-type"] === "unsupported-code") {
-    $('.showResultErrors').text("Unfortunatly we have encoutered an error");
+    $('.showResultErrors').text("Unfortunatly we have encoutered an error, this currency might not be supported");
   } else {
     $('.showErrors').text(`There was an error ${response.message}. Please enter a valid number.`);
   }
